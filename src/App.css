@@ -72,7 +72,7 @@
   display: flex;
   justify-content: space-between;
   background-color: black;
-  padding: 2% 5% 20% 0;
+  padding: 2% 5% 5% 0;
 }
 
 .logo {
@@ -86,6 +86,7 @@
   color: white;
   text-decoration: none;
 }
+
 .user {
   display: flex;
   justify-content: space-between;
@@ -120,4 +121,57 @@
 }
 .userIcon {
   width: 40%;
+}
+
+.search-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 0 0 8% 0
+}
+.search-links > p {
+  margin: 0 1% 0 1%;
+}
+.search-links > p:hover {
+  cursor: pointer;
+}
+.link-selected {
+  text-decoration: underline;
+}
+
+.banner {
+  padding: 60% 0 0 0;
+  background-image: url('./images/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-container {
+  padding: 0 0 3.5% 0;
+  background-color: black;
+}
+
+.banner-container > p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 3.5% 0 0 0;
+}
+
+.search-bar {
+  width: 90%;
+  background-color: white;
+  margin: 0 0 0 5%;
+  border-radius: 15%/180%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location, .check-in, .check-out, .guests {
+  margin: 3% 0 3% 0;
+  border-radius: 2%/90%;
 }
