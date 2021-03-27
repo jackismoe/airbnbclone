@@ -31,10 +31,10 @@ class Banner extends React.Component {
 
         <div class='banner-container'>
           <div class='search-bar'>
-            <input class='location'></input>
-            <input class='check-in'></input>
-            <input class='check-out'></input>
-            <input class='guests'></input>
+            <div class='location'></div>
+            <div class='check-in'></div>
+            <div class='check-out'></div>
+            <div class='guests'></div>
           </div>
 
           <div class='banner'/>
